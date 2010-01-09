@@ -1,0 +1,37 @@
+delicious-html2hatebu
+  - A Converter to Change from del.icio.us Bookmarks Format to Hatena Bookmark in order to migration from del.icio.us to hatena.
+
+== Synopsis
+
+  delicious-html2hatebu [user] [html bookmarks file] > [xml bookmarks file]
+
+== How To Use
+
+   1. Get your delicious bookmark from https://secure.delicious.com/settings/bookmarks/export. Then you get "delicious-yyyymmdd.htm".
+   2. Convert delicious bookmark to Hatena's bookmark.
+
+     delicious-html2hatebu name delicious-yyyymmdd > hatebu.htm
+
+   3. Import hatebu.htm at http://b.hatena.ne.jp/.
+   
+     This process takes very long time. 
+     In my case (1000 entries), it takes three hours.
+     Please wait.
+
+== Aurhor
+
+ARAKI Yasuhiro <ar@debian.org>
+Copyright (c) 2010 ARAKI Yasuhiro
+
+It is free software, and is distributed under the Ruby license.
+
+== Notice
+
+ This code is derived from delicious-html2xml. 
+ Bellow lines are original version of desription notice.
+
+delicious-html2xml
+  - A Converter to Change del.icio.us Bookmarks Format from HTML to XML
+
+Motohiro MATSUDA <matsuda@sw.it.aoyama.ac.jp>
+Copyright (c) 2008 Motohiro MATSUDA.
